@@ -1,0 +1,72 @@
+body{
+  background: linear-gradient(to right,blue,yellow);
+}
+h1{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.m1{
+  padding: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.m2{
+  padding: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.m3{
+  padding: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  position: relative;
+  left: 13px;
+}
+.m4{
+  padding: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  position: relative;
+  right: 36px;
+}
+input{
+  padding: 5px;
+  border-radius: 10px;
+}
+button{
+  padding: 5px;
+  width: 60px;
+  position: relative;
+  left: 39px;
+  font-weight: 790;
+  border-radius: 10px;
+  
+}
+#obey{
+  font-style: oblique;
+}
+#obey2{
+  font-style: oblique;
+  position:relative ;
+  left: 3px;
+}
+#obey3{
+  font-style: oblique;
+  position:relative ;
+  left: 7px;
+}
+#obey4{
+  font-style: oblique;
+  position:relative ;
+  left: 5px;
+}
+form{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  height: 25rem;
+  width: 28rem;
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0px 8px 32px 0px;
+}

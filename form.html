@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <center>
+    <h1><br></h1>
+  <form action="destination.html" method="get">
+    <h1>Instagram Login</h1>
+    <div class="m1">
+      <label >Username:</label>
+      <input id="obey" type="text" placeholder="Enter your username" required>
+    </div>
+    <br>
+    <div class="m2">
+      <label >Password:</label>
+      <input id="obey2" type="text" placeholder="Enter your password" required>
+    </div>
+    <br>
+    <div class="m3">
+      <label >Email:</label>
+      <input id="obey3" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" placeholder="Enter your e-mail address" required>
+    </div>
+    <br>
+    <div class="m4">
+      <label >Confirm password:</label>
+      <input id="obey4" type="text" placeholder="Re-enter your password" required>
+    </div>
+    <br>
+    <button type="submit">Log In</button>
+  </form>
+  </center>
+</body>
+</html>   
